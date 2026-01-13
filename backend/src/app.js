@@ -2,6 +2,10 @@ const express = require("express");
 const authRoutes = require("./routes/authRoutes");
 
 const app = express();
+const userRoutes = require("./routes/userRoutes");
+
+app.use("/users", userRoutes);
+
 
 app.use(express.json());
 
