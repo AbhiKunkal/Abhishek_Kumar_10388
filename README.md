@@ -1,6 +1,6 @@
 
 
-``
+
 # Task Management System (Kanban Based)
 
 ## Overview
@@ -143,7 +143,6 @@ VITE_API_BASE_URL=http://localhost:5000
 **Abhishek Kumar**
 B.Tech Final Year Student
 
-```
 
 
 
