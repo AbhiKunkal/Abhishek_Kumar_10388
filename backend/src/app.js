@@ -3,6 +3,10 @@ const authRoutes = require("./routes/authRoutes");
 
 const app = express();
 const userRoutes = require("./routes/userRoutes");
+const taskRoutes = require("./routes/taskRoutes");
+
+app.use("/tasks", taskRoutes);
+
 
 app.use("/users", userRoutes);
 
